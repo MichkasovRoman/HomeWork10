@@ -14,7 +14,7 @@ async def time_command(update: Update, context: ContextTypes.DEFAULT_TYPE) :
 
 
 async def exit_command(update: Update, context: ContextTypes.DEFAULT_TYPE) :
-    await update.message.reply_text(f"Досвидание")
+    await update.message.reply_text(f"До свидания")
 
 
 async def new_year_command(update: Update, context: ContextTypes.DEFAULT_TYPE) :
